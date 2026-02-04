@@ -29,9 +29,9 @@ Project Structure
 ```
 
 src/
-├── api/        # API calls & signature logic
-├── services/   # Batching, retries, rate limiting
-├── utils/      # Serial number generation
-└── index.js    # Entry point
+├── api/        
+├── services/   
+├── utils/      
+└── index.js    
 
 ```
