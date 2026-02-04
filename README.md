@@ -12,3 +12,26 @@ This project is a client application that fetches real-time telemetry data for 5
 cd mock-api
 npm install
 npm start
+```
+The server will start on:
+```
+http://localhost:3000
+```
+
+Run the Client Application
+```
+cd energygrid-client
+npm install
+node src/index.js
+```
+
+Project Structure
+```
+
+src/
+├── api/        # API calls & signature logic
+├── services/   # Batching, retries, rate limiting
+├── utils/      # Serial number generation
+└── index.js    # Entry point
+
+```
